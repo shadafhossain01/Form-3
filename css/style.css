@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 85vh;
+    background-color:#f8f8f8;
+    display: flex;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 80px 26px;
+}
+.left{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+    
+}
+.left h2{
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    
+
+    
+}
+.right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.item{
+    position: relative;
+    border-bottom: 1px solid black;
+    margin-bottom: 19px;
+}
+.item i{
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+
+}
+
+.item input{
+    border: none;
+    outline: none;
+    padding: 5px 15px 5px 35px;
+    margin: 4px;
+    font-size: 15px;
+
+}
+form{
+    padding-left: 44px;
+    padding-right: 20px;
+   
+}
+.check{
+   padding-top: 15px;
+}
+.check span{
+    text-decoration:underline;
+}
+button{
+    margin-top: 50px;
+    padding: 15px 35px 15px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #6dabe4;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #faa5ac;
+}
+ .right a{
+     margin-top:35px;
+     color: black;
+     font-size: 20px;
+ }
+
+
+
+ 
